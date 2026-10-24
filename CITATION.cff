@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software, please cite it using the metadata below. If
+  you use the dataset it produces, cite the Zenodo dataset deposit
+  instead (see that deposit's own README for its citation).
+title: "hiberno-english-grounded-reader"
+type: software
+authors:
+  - family-names: Edirisinghe
+    given-names: Rasika
+    affiliation: University College Cork
+    orcid: "https://orcid.org/0009-0008-4673-0259"
+repository-code: "https://github.com/mrHendrixSL/hiberno-english-grounded-reader"
+license: MIT
+abstract: >-
+  Extraction pipeline, schema definitions, and evaluation code for a
+  hybrid (rule-based + LLM) structured-data extraction system applied to
+  "A Dictionary of Hiberno-English" (Dolan, 2020, 3rd edn). Companion
+  code for the dataset deposited on Zenodo and the accompanying journal
+  article.
