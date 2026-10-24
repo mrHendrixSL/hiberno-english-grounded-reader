@@ -3,7 +3,11 @@ inputs/eval390_reference.jsonl
 inputs/h390_reference.jsonl
 
 # Generated, but still reconstructs verbatim dictionary text -- see
-# frozen/README.md's "Why some generated files are also excluded".
+# inputs/README.md's "Why some generated files are also excluded".
 data/01_ingest/runs.parquet
 data/03_segmentation/entries.parquet
 data/08_rule_based/rb.jsonl
+
+# Python
+__pycache__/
+*.pyc
