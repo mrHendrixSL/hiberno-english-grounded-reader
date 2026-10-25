@@ -3,3 +3,4 @@ lxml==6.1.0
 pandas==3.0.2
 matplotlib==3.10.8
 scikit-learn==1.9.1
+pydantic==2.12.4
