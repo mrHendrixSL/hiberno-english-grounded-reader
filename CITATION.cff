@@ -10,6 +10,15 @@ authors:
     given-names: Rasika
     affiliation: University College Cork
     orcid: "https://orcid.org/0009-0008-4673-0259"
+  - family-names: O'Sullivan
+    given-names: James
+    affiliation: University College Cork
+  - family-names: Minghim
+    given-names: Rosane
+    affiliation: University College Cork
+  - family-names: Murphy
+    given-names: Órla
+    affiliation: University College Cork
 repository-code: "https://github.com/mrHendrixSL/hiberno-english-grounded-reader"
 license: MIT
 abstract: >-

@@ -20,11 +20,12 @@ It does not contain the copyrighted source text. The source edition is:
 
 ## Status
 
-This repository is being assembled commit-by-commit, mirroring the
-original development sequence (ingestion → apparatus extraction →
-segmentation → schema → rule-based reader → LLM readers → evaluation →
-hybrid production). It currently contains project scaffolding only; the
-pipeline code lands in subsequent commits.
+This repository is being assembled commit-by-commit. `notebooks/pipeline.ipynb`
+runs the pipeline stage by stage — ingestion, apparatus extraction,
+segmentation, structural sampling (E390/H390), deterministic resolution,
+the rule-based reader, the LLM readers, structural retrieval, and
+evaluation scoring are in place; hybrid production assembly is still to
+come. See the notebook itself for the current stage list.
 
 ## Method, in brief
 
@@ -45,7 +46,21 @@ produces has its own licence (CC BY-NC-SA 4.0); the source text is used
 under permission and is not redistributed, in whole or in
 representative part, under any licence granted by this repository.
 
+## Contributors
+
+- Rasika Edirisinghe (University College Cork)
+- James O'Sullivan (University College Cork)
+- Rosane Minghim (University College Cork)
+- Órla Murphy (University College Cork)
+
 ## Citation
 
-See `CITATION.cff` for how to cite this code. To cite the dataset, use
-the citation given in the Zenodo deposit's own README.
+If you use this code, please cite it:
+
+> Edirisinghe, R., O'Sullivan, J., Minghim, R., & Murphy, Ó. (2026).
+> *hiberno-english-grounded-reader* [Computer software].
+> https://github.com/mrHendrixSL/hiberno-english-grounded-reader
+
+See `CITATION.cff` for the machine-readable version. To cite the
+dataset itself, use the citation given in the Zenodo deposit's own
+README instead.
